@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ./workspace:/app/workspace
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+    command: bash
