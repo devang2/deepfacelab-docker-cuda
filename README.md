@@ -9,7 +9,6 @@ Clone this repository, run the docker-compose command and clear the workspace.
 git clone https://github.com/lavafroth/deepfacelab-docker.git
 cd deepfacelab-docker
 docker-compose run app
-./scripts/1_clear_workspace.sh
 ```
 
 Copy the `data_dst` and `data_src` videos to the workspace folder.
