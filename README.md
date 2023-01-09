@@ -12,4 +12,4 @@ docker-compose run app
 ```
 
 Copy the `data_dst` and `data_src` videos to the workspace folder.
-Now run the rest of the scripts in the sequentially the way they are numbered.
+Now run the rest of the scripts sequentially (as numbered).
